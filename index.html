@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+
+<head>
+	<title>KANBUNKERS - SMOOTH SAILING AHEAD</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+      <link rel="icon" type="image/x-icon" href="/images/favicon (2).png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<script src="js/vendor/modernizr-custom.js"></script>
+
+	<style>
+
+          	.small-text1
+			{
+			   margin-top: 98px;
+			}
+	 .overlay-container {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Adjust as needed */
+        }
+
+        .overlay-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.5; /* Adjust the overlay image opacity */
+        }
+
+
+
+
+		/* Add this CSS to your existing stylesheet or create a new one */
+		@media (max-width: 767px) {
+			.intro_layers_wrapper {
+				flex-direction: column-reverse;
+				/* Stack image below text on small screens */
+			}
+           
+               
+			.card-custom {
+				position: relative;
+				overflow: hidden;
+			}
+
+			.card-custom .card-img-top {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: auto;
+			}
+			
+			.small-text1
+			{
+			   margin-top: -20px;
+			}
+
+			/* .intro_layer.img.col-lg-6 {
+        width: 100%; 
+        margin: 20px auto;
+	} */
+		}
+	</style>
+
+	<style>
+		.centered-image-section {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 20px;
+			margin-left: -21rem;
+		}
+
+		.choose {
+			display: flex;
+			justify-content: space-between;
+			/* align-items: center; */
+		}
+
+		.left-cards,
+		.right-cards {
+			flex: 2;
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+		}
+
+		.card1 {
+			display: flex;
+			align-items: center;
+			border: 1px solid #ccc;
+			padding: 10px;
+			margin: 10px;
+			border-radius: 50px;
+			/* height: 108px; */
+			width: max-content;
+			/* width: max-content; */
+			flex-direction: row;
+		}
+
+		.card-content {
+			flex: 1;
+			margin-bottom: 9px;
+			line-height: 18px;
+			padding:12px;
+			text-transform: capitalize;
+			/* text-align: -webkit-right; */
+		}
+
+		.card img {
+			max-width: 100%;
+			height: auto;
+			margin-left: 10px;
+		}
+       
+
+		.second{
+			margin-left:-2rem;
+			width: 32rem;
+		}
+		.five{
+		 margin-left: 4rem;
+		}
+		.center_image{
+			max-width: 24rem;
+		}
+
+	/* Styles for screens up to 768px (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+    .center_image {
+		max-width: 16rem;
+    margin-top: -1rem;
+    margin-left: 21rem;
+
+    }
+    
+     .form-control{
+              margin-top: 2rem !important;
+            }
+            
+            	.small-text1
+			{
+			   margin-top: -20px;
+			}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1440px) {
+    .center_image {
+        max-width: 15rem; /* Adjust max-width for tablets */
+        margin-top: 9rem; /* Adjust margin-top for tablets */
+    }
+}
+
+
+	@media only screen and (max-width: 425px) {
+	    
+	    .card1 {
+			    
+			    margin-bottom: -1rem;
+    display: block;
+    display: flex;
+     width: auto; 
+     /*flex-direction: column-reverse; */
+    align-items: center;
+    margin-left: 22rem ;
+    padding: 0rem;
+}
+	    
+	}
+
+		/* Media queries for tablet and mobile responsiveness */
+		@media only screen and (max-width: 768px) {
+			.container {
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.left-cards,
+			.right-cards {
+				width: 100%;
+				margin: 0;
+			}
+
+			.card1 {
+			    
+			    margin-bottom: -1rem;
+    display: block;
+    display: flex;
+     /*width: auto; */
+    /* flex-direction: column-reverse; */
+    align-items: center;
+    margin-left: 19rem;
+    padding: 0rem;
+}
+				
+ /*   margin-bottom: 1rem;*/
+ /*   display: block;*/
+ /*   display: flex;*/
+	/*width: auto;*/
+ /*   flex-direction: column-reverse;*/
+ /*   align-items: center;*/
+ /*   margin-left: 10rem;*/
+			}
+		}
+		/* .center_image{
+			margin-left: 9rem;
+		} */
+
+		.background-image-section {
+			position: relative;
+			overflow: hidden;
+		}
+
+		.background-image {
+			background-image: url('./images/slider/Background.png');
+			background-size: cover;
+			background-position: center;
+			height: 100vh;
+			/* Set the height of the section */
+		}
+
+		.content-block {
+		    position: absolute;
+    top: 46%;
+    left: 7%;
+    transform: translate(1%, -50%);
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    border-radius: 12px;
+}
+		}
+
+		
+
+		/* Media queries for responsiveness */
+		/* @media (max-width: 768px) {
+    .background-image {
+        height: auto;
+    }
+    
+    .content-block {
+        width: 80%;
+    }
+} */
+
+
+/* Responsive adjustments for screens up to 768px (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+    .col-xl-3,
+    .col-lg-4,
+    .col-md-6 {
+        width: 100%; /* Make columns take full width */
+        margin-bottom: 20px; /* Add margin between columns */
+    }
+   
+}
+
+/* Responsive adjustments for screens between 769px and 1024px (typical tablet devices) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .col-xl-3,
+    .col-lg-4,
+    .col-md-6 {
+        /* width: 50%;  */
+        margin-bottom: 20px; /* Add margin between columns */
+    }
+}
+
+
+@media (max-width: 768px) {
+        .col-md-6 {
+           width: max-content !important;
+        }
+         .ct{
+	     margin-top:3.7rem;
+	} 
+	}
+	 
+
+	</style>
+
+
+</head>
+
+<body>
+
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+	
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<div class="header_absolute">
+				<!-- header with logo - three Bootstrap columns - left logo, navigation and right includes-->
+				<header class="page_header header_absolute header-1 header-5 s-py1-5 s-py-lg1-15  ds bg-transparent">
+					<div class="container-fluid">
+						<div class="row d-flex align-items-center">
+							<div class="col-xl-2 col-md-6 col-9">
+
+								<a href="index.html" class="logo">
+									<img class="logo-full-width" src="images/klogo.png" alt="">
+								</a>
+
+							</div>
+							<div class="col-xl-10 col-md-1 col-0 text-end">
+
+								<!-- main nav start -->
+								<nav class="top-nav">
+									<ul class="nav sf-menu">
+										<li class="nav-item active">
+											<a class="nav-link" href="index.html">Home</a>
+										</li>
+
+										<!-- about -->
+										<li class="nav-item">
+											<a class="nav-link" href="#about">About Us</a>
+
+										</li>
+										<!-- eof about -->
+
+										<li class="nav-item">
+											<a class="nav-link" href="#service">Services</a>
+
+										</li>
+										<!-- eof Service -->
+
+										<!-- contacts -->
+										<li class="nav-item">
+											<a class="nav-link" href="#contact">Contact</a>
+										</li>
+										<!-- eof contacts -->
+										<li class="nav-item">
+										 	<button type="button" class="btn btn-primary btn-rounded "> <a href="#contact">Get Quote</a>
+												&nbsp;&nbsp;<i class="color-darkgrey fa fa-long-arrow-right"
+													aria-hidden="true"></i></button>
+										</li>
+									</ul>
+
+								</nav>
+								<!-- eof main nav -->
+
+							</div>
+							<!-- <div class="col-2 col-md-5 col-xl-2">
+								<ul class="top-includes">
+									<li class="special-menu">
+										
+										<span class="toggle_menu toggle_menu_side header-slide toggle_menu_side_special"><span></span></span>
+									</li>
+								</ul>
+							</div> -->
+
+
+						</div>
+					</div>
+					<!-- header toggler -->
+					<span class="toggle_menu"><span>menu</span></span>
+				</header>
+				<header class="page_header_side header_slide header-special header_side_right ls">
+					<div class="scrollbar-macosx">
+						<div class="side_header_inner">
+							<p class="text-right mb-0 close-wrapper"><a href="javascript:void(0)">×</a></p>
+							<div
+								class="widget-odd widget-first widget-1 big-title widget-theme-wrapper widget_no_background">
+								<div id="mwt_bloginfo-4" class="widget widget_bloginfo">
+									<h3 class="widget-title">About</h3>
+									<p>
+										Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+										deserunt mollit anim id est laborum. Sed ut perspiciatis unde.</p>
+								</div>
+							</div>
+							<div
+								class="widget-even widget-last widget-2 big-title rounded-input widget-theme-wrapper widget_no_background">
+								<div id="mc4wp_form_widget-3" class="widget widget_mc4wp_form_widget">
+									<h3 class="widget-title">Newsletter</h3>
+
+									<form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-89" method="post" data-id="89"
+										data-name="">
+										<div class="mc4wp-form-fields">
+
+											<input name="email" type="email"
+												class="form-control mailchimp_email has-placeholder"
+												placeholder="Email Address">
+											<button type="submit" class="search-submit">
+												<span class="screen-reader-text">Subscribe</span>
+											</button>
+											<div class="response"></div>
+										</div><label style="display: none !important;">Leave this field empty if you're
+											human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1"
+												autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp"
+											value="1624880714">
+										<input type="hidden" name="_mc4wp_form_id" value="89"><input type="hidden"
+											name="_mc4wp_form_element_id" value="mc4wp-form-1">
+										<div class="mc4wp-response"></div>
+									</form>
+									<!-- / Mailchimp for WordPress Plugin -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+			</div>
+
+			<section class="page_slider">
+				<div class="flexslider">
+					<ul class="slides">
+						<!-- Slide 1 -->
+						<li class="ds text-start p-0">
+							<img src="images/slider/Banner-BG.jpg" alt="">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-12 col-lg-6 d-flex justify-content-center">
+										<div class="intro_layers ">
+											<div class="intro_layer" data-animation="fadeInRight">
+												<div class="d-inline-block">
+
+													<h2 class="text-capitalize intro_featured_word">
+														SMOOTH<br> SAILING AHEAD
+													</h2>
+													<p>Your Trusted Bunkring Partner in India</p>
+												</div>
+											</div>
+											<div>
+
+												<a href="about.html" target="_self"
+													class="btn btn-maincolor inverse  big-btn btn-rounded">
+													<span>Read More</span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-lg-6 p-0 ms-100 animate" data-animation="fadeInDownBig"
+										data-delay="150">
+										<!-- <div class="intro_layer img  col-lg-6 p-0 ms-100"> -->
+										<img src="images/slider/Banner.jpg" alt="">
+										<!-- </div> -->
+									</div>
+								</div><!-- eof .row -->
+							</div><!-- eof .container-fluid -->
+						</li>
+
+						<!-- Slide 2 -->
+						<li class="ds text-start p-0">
+							<img src="images/slider/Banner-BG.jpg" alt="">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-12 col-lg-6 d-flex justify-content-center">
+										<div class="intro_layers ">
+											<div class="intro_layer" data-animation="fadeInRight">
+												<div class="d-inline-block">
+
+													<h2 class="text-capitalize intro_featured_word">
+														SMOOTH<br> SAILING AHEAD
+													</h2>
+													<p>Your Trusted Bunkring Partner in India</p>
+												</div>
+											</div>
+											<div>
+
+												<a href="about.html" target="_self"
+													class="btn btn-maincolor inverse  big-btn btn-rounded">
+													<span>Read More</span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-lg-6 p-0 ms-100">
+										<img src="images/slider/Banner-2.jpg" alt="">
+									</div>
+								</div><!-- eof .row -->
+							</div><!-- eof .container-fluid -->
+						</li>
+
+						<!-- Slide 3 -->
+						<li class="ds text-start p-0">
+							<img src="images/slider/Banner-BG.jpg" alt="">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-12 col-lg-6 d-flex justify-content-center">
+										<div class="intro_layers ">
+											<div class="intro_layer" data-animation="fadeInRight">
+												<div class="d-inline-block">
+
+													<h2 class="text-capitalize intro_featured_word">
+														SMOOTH<br> SAILING AHEAD
+													</h2>
+													<p>Your Trusted Bunkring Partner in India</p>
+												</div>
+											</div>
+											<div>
+
+												<a href="#" target="_self"
+													class="btn btn-maincolor inverse  big-btn btn-rounded">
+													<span>Read More</span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-lg-6 p-0 ms-100">
+										<img src="images/slider/Banner-3.jpg" alt="">
+									</div>
+								</div><!-- eof .row -->
+							</div><!-- eof .container-fluid -->
+						</li>
+					</ul>
+				</div> <!-- eof flexslider -->
+			</section>
+			
+			
+				<section class="ls s-py-50" style="background-image: url('./images/gallery/OF-BG-Patter.png'); margin-top: 3rem;">
+				<div class="container">
+					<div class="row">
+
+						<!-- <div class="d-none d-lg-block divider-70"></div> -->
+
+						<div class="col-lg-12">
+							<div class="row justify-content-center">
+								<div class="col-md-10 col-xl-8">
+									<div class="filters gallery-filters small-text text-lg-right">
+										<!--<h2>WELCOME</h2>-->
+										<p class="d-flex justify-content-center text-center">We Aare KAN BUNKERS,one
+											of the India's leading bunkering Suppliers with a long-term experience in the
+											bunker fuels business,including markting,Operations and Supply</p>
+
+										<!--<button type="button" class="btn btn-primary btn-rounded ">KNOW MORE-->
+										<!--	&nbsp;&nbsp;<i class="color-darkgrey fa fa-long-arrow-right"-->
+										<!--		aria-hidden="true"></i></button>-->
+									</div>
+								</div>
+							</div>
+
+
+							<div class="row portfolio isotope-wrapper masonry-layout c-mb-30"
+								data-filters=".gallery-filters">
+
+								<div class="col-xl-4 col-sm-6 creature">
+									<div class="vertical-item content-absolute text-center ds ms">
+										<div class="item-media">
+											<img src="images/gallery/01.jpg" alt="">
+											<div class="item-title-overlay">
+												<h4>
+													<a href="#">INNOVATION</a>
+												</h4>
+											</div>
+										</div>
+										<div class="item-content">
+											<div class="links-wrap absolute-wrap">
+												<a class="link-zoom photoswipe-link" href="images/gallery/01.jpg"
+													data-width="1110" data-height="950">
+												</a>
+												<!-- <a class="link-anchor" href="gallery-single.html"></a> -->
+
+											</div>
+											<h4>
+												<a href="#">INNOVATION </a>
+											</h4>
+										</div>
+									</div>
+
+
+								</div>
+
+								<div class="col-xl-4 col-sm-6 storage">
+									<div class="vertical-item content-absolute text-center ds ms">
+										<div class="item-media">
+											<img src="images/gallery/02.jpg" alt="">
+
+											<div class="item-title-overlay">
+												<h4>
+													<a href="#">SUSTAINABILITY</a>
+												</h4>
+											</div>
+										</div>
+										<div class="item-content">
+											<div class="links-wrap absolute-wrap">
+												<a class="link-zoom photoswipe-link" href="images/gallery/02.jpg"
+													data-width="1110" data-height="950">
+												</a>
+												<!-- <a class="link-anchor" href="#"></a> -->
+											</div>
+											<h4>
+												<a href="#">SUSTAINABILITY</a>
+											</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-xl-4 col-sm-6 creature">
+									<div class="vertical-item content-absolute text-center ds ms">
+										<div class="item-media">
+											<img src="images/gallery/03.jpg" alt="">
+											<div class="item-title-overlay">
+												<h4>
+													<a href="#">QUALITY</a>
+												</h4>
+											</div>
+										</div>
+										<div class="item-content">
+											<div class="links-wrap absolute-wrap">
+												<a class="link-zoom photoswipe-link" href="images/gallery/03.jpg"
+													data-width="1490" data-height="1275">
+												</a>
+												<!-- <a class="link-anchor" href="#"></a> -->
+											</div>
+											<h4>
+												<a href="#">QUALITY</a>
+											</h4>
+										</div>
+									</div>
+								</div>
+
+
+
+							</div>
+							<!-- .isotope-wrapper-->
+
+						</div>
+
+						<!-- <div class="d-none d-lg-block divider-100"></div> -->
+					</div>
+
+				</div>
+			</section>
+			
+			
+			<section id="about" class="ls gx-3 s-pt-55 s-pb-60 s-pt-lg-95 s-pb-lg-100 s-pt-xl-115 s-pb-xl-120 s-parallax" style="background-image: url(_images/texture.html); background-position: 50% -5px;">
+
+				<div class="container">
+					<div class="row align-items-center">
+
+
+						<div class="col-xs-12 col-12 col-lg-6 animate" data-animation="floating" data-delay="150">
+
+							<div class="img-wrap  ">
+								<img src="images/gallery/pic.png" alt="images/img02.png">
+							</div>
+		
+							<div class="fw-divider-space divider-30 divider-lg-0"></div>
+						</div>
+						<!-- .col-* -->
+
+
+						<div class="col-xs-12 col-12 col-lg-6 animate text-center text-sm-start animated fadeInRight" data-animation="fadeInRight">
+
+							<h6 class="special-heading text-center text-sm-start ">
+								<span class="color-main bold ">
+								ABOUT US </span>
+							</h6>
+							<div class="fw-divider-space divider-25"></div>
+							<h4 class="special-heading text-center text-sm-start ">
+								<span class="color-darkgrey bold  big-line-height ">
+									One of the most effective Fuel company </span>
+							</h4>
+							<div class="fw-divider-space divider-25"></div>
+							<p>We use our expertise to manag risk and to ensure a reliable and consistent supply of high-quality 
+                    fuels at fair and transaprent prices,to help customers manage uncertainty in the market.
+                    Our core values are bulit on being:
+							</p>
+							<div class="fw-divider-space divider-30 divider-lg-50"></div>
+
+							<div class="simple-list ">
+								<ul class="list1">
+									<li class="list-item">
+										<span>Transparent</span>
+										<p style="color:#8f98a0">We adopt a policy of complete transparency on pricing so our customers  know exactly what they are getting and trust us to deliver on their expectations</p>
+									</li>
+									<li class="list-item">
+										<span>Flexible</span>
+										<p style="color:#8f98a0">You will find us easy to do business with and our flexible approach enables us to meet our customers changing needs.Our specialism in risk mangament provides certainty around margins and costs.</p>
+									</li>
+									<li class="list-item">
+										<span>Easy</span>
+										<p style="color:#8f98a0">Our aim to make buying fuel as easy as possible.We use our considerable knowledge and expertise to deliver innovative solutions and support our customers in making informed purchasing decisions.</p>
+									</li>
+								</ul>
+							</div>
+							<div class="fw-divider-space divider-30 divider-lg-45"></div>
+
+							<div class=" d-flex align-items-center">
+								<a href="#" target="_self" class="btn btn-outline-dark  big-btn btn-rounded">
+									<span>Read More</span>
+								</a>
+							
+
+							</div>
+						</div>
+						<!-- .col-* -->
+					</div>
+
+				</div>
+			</section>
+
+
+
+		
+
+			<section class="container-fluid ls ms" id="service">
+				<div class="row">
+					<!-- Left Image -->
+					<div class="col-md-6 animate" data-animation="slideRight" data-delay="150"
+						style="margin-left: -12px;">
+						<img src="./images/gallery/service.png" class="img-fluid" alt="Left Image">
+					</div>
+                          
+					<!-- Right Side Cards -->
+					<!-- <h2>OUR SERVICES</h2> -->
+					
+					<div class="col-md-6">
+						<h1 class="text-center1 mb-100">OUR SERVICES</h1>
+						<div class="row">
+							<!-- First Row of Cards -->
+							<div class="col-lg-6  col-md-6 col-sm-12 position-relative">
+								<!-- Added position-relative class -->
+								<div class="card animate" data-animation="slideLeft" data-delay="150">
+									<img src="./images/gallery/S-1.png" class="card-img-top1 position-absolute mt-1"
+										alt="Card Image 1">
+									<div class="card-body mt-5">
+										<h5 class="card-title">BUNKERS</h5>
+										<p class="card-text">Offshore from India, we are delivering safer, faster and
+											more efficient refueling services than ever before - meeting the needs of
+											oil rig operators, container and tanker fleets as well as local fishermen.
+										</p>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="col-lg-6 col-md-6 col-sm-12 position-relative ct">
+								<div class="card animate" data-animation="bounce" data-delay="150">
+									<img src="./images/gallery/S-2.png" class="card-img-top1 position-absolute"
+										alt="Card Image 2">
+									<div class="card-body mt-5">
+										<h5 class="card-title">FUELS</h5>
+										<p class="card-text">We supply refined marine fuels to vessels including
+											container ships, dry bulk carriers, cruise ships, oil tankers, and ferries,
+											both in port and at sea.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mt-5">
+							<!-- Second Row of Cards -->
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<div class="card animate" data-animation="fadeInUpBig" data-delay="150">
+									<img src="./images/gallery/S-3.png" class="card-img-top1 position-absolute"
+										alt="Card Image 3">
+									<div class="card-body mt-5">
+										<h5 class="card-title">INDUSTRIAL SUPPLIES</h5>
+										<p class="card-text">We serve our clients with an optimum quality of all grades
+											of fuels and Lubricants for all types of industries across the country. Our
+											range of products is developed from high grade raw material with most
+											competitive prices.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-6 col-md-6 col-sm-12 ct">
+								<div class="card animate" data-animation="fadeInDownBig" data-delay="150">
+									<img src="./images/gallery/S-4.png" class="card-img-top1 position-absolute"
+										alt="Card Image 4">
+									<div class="card-body mt-5">
+										<h5 class="card-title">TRANSPORTATION SERVICES</h5>
+										<p class="card-text">We provide wide range of transportation services (Trucking
+											and Barging services) for bunker supply at east coast and west coast of
+											India. Transportation services can be utilised for refuelling ocean-going
+											vessels or fixed structures in deep water.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="ls s-pt-60 s-pb-25 s-pt-lg-100 s-pb-lg-65 s-pt-xl-120 s-pb-xl-85"
+         style="background-image: url('./images/gallery/OF-BG-Patter.png');">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-12">
+                <h3 class="special-heading text-center">
+                    <span class="text-capitalize">OUR FOUNDERS</span>
+                </h3>
+                <div class="fw-divider-space divider-25"></div>
+                <p class="special-heading text-center fw-400">
+                    <span>Pioneering Maritime Innovators</span>
+                </p>
+                <div class="fw-divider-space divider-30 divider-lg-50"></div>
+                <div class="d-flex justify-content-center isotope-wrapper1 team-carousel1 isotope row masonry-layout1 c-gutter-30 c-mb-30">
+                    <div class="isotope-item team-layout-2 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div class="vertical-item text-center">
+                            <div class="item-media animate" data-animation="slideInRight" data-delay="150">
+                                <img src="images/team/web-1.jpg" alt="Founder Image" style="border-radius: 1rem; width: 20rem;">
+                            </div>
+                            <div class="item-content1 animate" data-animation="slideInLeft" data-delay="150">
+                                <h6 style="margin-bottom: 5px;">Rahul Roy</h6>
+                                <p class="small-text1" style="margin-top: 0;">Managing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="isotope-item1 team-layout-2 col-lg-8 col-md-6 col-sm-6 col-xs-12">
+                        <div class="vertical-item text-center">
+                            <div class="item-content21 animate" data-animation="slideInRight" data-delay="150">
+                                <h6 style="display:none">About MD</h6>
+                                <p class="small-text1">
+                                    KAN BUNKERS is one of the India's leading bunkering supplier with long-term experience in the bunker fuels business,
+                                    including marketing,operations and supply.We own and operate fleet of barges to match different products,locations and sizes of receiving vessels.
+                                    From our physical supply we cover locations like visakhapatnam,Ganagvaram,Kakinada,Krishnapatnam and all other major ports in India.
+                               </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+			<!--<section class="circle-section" style="background-image: url('./images/slider/S-BG.jpg'); height: auto;">-->
+			<!--	<div class="container">-->
+			<!--		<h3 class="special-heading1 text-center">-->
+			<!--			<span class="text-capitalize">GLOBAL COVERAGE</span>-->
+			<!--		</h3>-->
+			<!--		<div class="row justify-content-center">-->
+			<!--			<div class="col-lg-4 col-md-6 col-sm-12 text-center">-->
+			<!--				<div class="circle animate" data-animation="scaleAppear" data-delay="150">-->
+			<!--					<div class="circle-text animate" data-animation="slideExpandUp" data-delay="150">-->
+			<!--						<strong class="percent color-darkgrey1"> 07</strong>-->
+			<!--						<h4 class="text-uppercase thin tt">CAGR(2020-2024)</h4>-->
+			<!--					</div>-->
+			<!--				</div>-->
+			<!--			</div>-->
+			<!--			<div class="col-lg-4 col-md-6 col-sm-12 text-center">-->
+			<!--				<div class="circle animate" data-animation="hatch" data-delay="150">-->
+			<!--					<div class="circle-text animate" data-animation="pullUp" data-delay="150">-->
+			<!--						<strong class="percent1 color-darkgrey1"> $ 43.75 BILLION</strong>-->
+			<!--						<h4 class="text-uppercase thin tt">INCREMENTAL GROWTH</h4>-->
+			<!--					</div>-->
+			<!--				</div>-->
+			<!--			</div>-->
+			<!--			<div class="col-lg-4 col-md-6 col-sm-12 text-center">-->
+			<!--				<div class="circle animate" data-animation="stretchLeft" data-delay="150">-->
+			<!--					<div class="circle-text" >-->
+			<!--						<strong class="percent1 color-darkgrey1"> 50+</strong>-->
+			<!--						<h4 class="text-uppercase thin tt">PORTS</h4>-->
+
+			<!--					</div>-->
+			<!--				</div>-->
+			<!--			</div>-->
+			<!--		</div>-->
+			<!--	</div>-->
+			<!--</section>-->
+			 <h1 class="d-flex justify-content-center">Global Coverage</h1>
+			<section class="ls map-section" style="background-image: url('./images/gallery/OF-BG-Patter.png')">
+			    
+				<div class="container">
+				   <div class="d-flex justify-content-center">
+			   
+			     <p style="text-align:justify">Consistency is critical in winning and maintaining customers' trust and confidence. 
+			     We offer a physical service in 10 Major ports throughout India and also manage a trading footprint covering 25 ports. 
+			     Wherever we support our customers, we do so with the same exacting standards and service commitment</p>
+			     </div>
+					<div class="row">
+						<div class="col-lg-8">
+							<!--<h5 class="special-heading">-->
+								<span class="text-capitalize1 special-heading" >
+							<span style="color:blue;font-size:20px">3.1%</span>&nbsp; &nbsp;Global Bunker Fuel market is expected <br class="float-right">to reach $103.1billion by 2027.
+							
+							</span>
+							<!--</h5>-->
+							<div class="divider-45 hidden-below-lg"></div>
+							<div class="divider-30 hidden-above-lg"></div>
+							<p class="special-heading">
+								<span style="text-align:justify">
+								We have a growing global presence through our network of regional affiliates across continents, 
+								supported by an integrated global supply chain.This enables us to be where our customers need us to be.
+								</span>
+							</p>
+							<div class="divider-45 hidden-below-lg"></div>
+							<div class="divider-30 hidden-above-lg"></div>
+							<div class="d-flex flex-column flex-sm-row justify-content-between flex-wrap ">
+								<div class="simple-counter">
+									<h3 class="special-heading counter-wrap">
+										<span class="counter color-main thin big" data-from="0" data-to="26" data-speed="1800">0</span>
+									</h3>
+									<p class="special-heading bold color-darkgrey">
+										<span>
+											Years
+										</span>
+									</p>
+									<h6 class="special-heading text-capitalize">
+										<span>
+											Experience
+										</span>
+									</h6>
+								</div>
+								<div class="divider-30 hidden-above-sm"></div>
+								<div class="simple-counter">
+									<h3 class="special-heading counter-wrap">
+										<span class="counter color-main thin big" data-from="0" data-to="4" data-speed="1800">0</span>
+									</h3>
+									<p class="special-heading bold color-darkgrey">
+										<span>
+											Offices
+										</span>
+									</p>
+									<h6 class="special-heading text-capitalize">
+										<span>
+											India
+										</span>
+									</h6>
+								</div>
+								<div class="divider-30 hidden-above-sm"></div>
+								<div class="simple-counter">
+									<h3 class="special-heading counter-wrap">
+										<span class="counter color-main thin big" data-from="0" data-to="87" data-speed="1800">0</span>
+										<!--<span class="counter-add thin color-main big">k</span>-->
+									</h3>
+									<p class="special-heading bold color-darkgrey">
+										<span>
+											Workers
+										</span>
+									</p>
+									<h6 class="special-heading text-capitalize">
+										<span>
+											Employed
+										</span>
+									</h6>
+								</div>
+							</div>
+
+						</div>
+						<div class="col-lg-4">
+							<!--<div class="divider-40 hidden-above-lg"></div>-->
+							<!--<div id="map-vector">-->
+							    <img src="./images/gallery/Picture3.jpg" alt="map">
+						<!--	</div>-->
+						</div>
+					</div>
+				</div>
+			</section>
+			
+
+		
+
+
+			<h1 class="d-flex justify-content-center">WHY CHOOSE</h1>
+
+			<section class="centered-image-section" >
+				<div class="container choose">
+					<div class="left-cards">
+						<!-- Card 1 -->
+						<div class="card1 curved-corner animate" data-animation="fadeInUpBig" data-delay="150">
+							<div class="card-content">
+								<h5>Reliable supply chain</h5>
+								<spam>our strong partnership with reputable suppliers and <br>refineries guarantee a
+									consistent supply of <br>quality fuel products.</spam>
+							</div>
+							<img src="./images/slider/Icons/01.png" alt="Card 1" width="90" height="90">
+						</div>
+						<!-- Card 2 -->
+						<div class="card1 curved-corner second animate" data-animation="fadeInLeftBig" data-delay="150">
+							<div class="card-content">
+								<h5>Quality Assurance</h5>
+								<spam>We adhre to stringent quality processes to<br> ensure that the fuel products we
+									deliver <br>meet industry standards</spam>
+							</div>
+							<img src="./images/slider/Icons/04.png" alt="Card 1" width="90" height="90">
+						</div>
+						<!-- Card 3 -->
+						<div class="card1 animate" data-animation="fadeInRightBig" data-delay="150">
+							<div class="card-content">
+								<h5>Safety First</h5>
+								<spam>Our commitment to safety extends to all aspects of <br>our operations,protecting
+									personnel,<br>eqipment,and the environmenry</spam>
+							</div>
+							<img src="./images/slider/Icons/06.png" alt="Card 1" width="90" height="90">
+						</div>
+					</div>
+
+					<div class="centered-image animate" data-animation="slideExpandUp" data-delay="150">
+						<img src="./images/slider/11.png" alt="Centered Image"  class="center_image">
+					</div>
+
+					<div class="right-cards">
+						<!-- Card 4 -->
+						<div class="card1 animate" data-animation="scaleAppear" data-delay="150">
+							<img src="./images/slider/Icons/03.png" alt="Card 1" width="90" height="90">
+							<div class="card-content">
+								<h5>Environment Respnsibility</h5>
+								<spam>We active seek eco-friendlt practice to reduce <br> our encironmental impact and
+									<br>contribute to sustainable solutions</spam>
+							</div>
+						</div>
+						<!-- Card 5 -->
+						<div class="card1 five animate"  data-animation="fadeIn" data-delay="150">
+							<img src="./images/slider/Icons/02.png" alt="Card 1" width="90" height="90">
+							<div class="card-content">
+								<h5>Client-centric Approach</h5>
+								<spam>Our servuces are tailolred to meeteach client's<br> unique needs,ensuring customer
+									satisfaction <br> and long-lasting partnership</spam>
+							</div>
+						</div>
+						<!-- Card 6 -->
+						<div class="card1 animate" data-animation="slideUp" data-delay="150">
+							<img src="./images/slider/Icons/05.png" alt="Card 1" width="90" height="90">
+							<div class="card-content">
+								<h5>Global reach</h5>
+								<spam>with a wide network,we </spam>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+
+
+			<section class="background-image-section" id="contact">
+				<div class="background-image">
+					<!-- Background image content here -->
+				</div>
+				<div class="content-block">
+					<!-- Content on top of the background image -->
+					<h4>FOLLOW US,GET LATEST NEWS</h4>
+					<!--<form action="">-->
+						<div class="row" lat>
+							<div class="col-lg-6">
+                               
+								<input type="email" class="form-control"  id="name"
+									placeholder="name" style="color:#fff">
+							</div>
+							<div class="col-lg-6">
+                                
+								<input type="email" class="form-control" id="email"
+									placeholder="name@example.com" style="color:#fff">
+							</div>
+						</div>
+						<div class="mb-3">
+                             
+							<textarea class="form-control" id="message" rows="3"
+								placeholder="Your Text" style="color:#fff"></textarea>
+
+
+						</div>
+						<button type="submit" id="submit_id">Submit &nbsp;&nbsp;<i class="color-darkgrey fa fa-long-arrow-right"
+								aria-hidden="true"></i></button>
+					<!--</form>-->
+					
+					<div id="response"></div>
+				</div>
+			</section>
+
+	<script src="js/vendor/jquery-3.6.0.min.js"></script>
+	<script>
+           $(document).ready(function() {
+            $("#submit_id").click(function() {
+                var name = $("#name").val();
+                var email = $("#email").val();
+                 var message = $("#message").val();
+                if (name === '' || email === '' || message === '') {
+                    alert("Please fill all fields");
+                    return; // Exit the function if fields are empty
+                }
+                  
+                $.ajax({
+                    url: "mail.php",
+                    type: "POST",
+                    data: {
+                        name:name,
+                        email:email,
+                        message: message
+                    },
+                    success: function(response) {
+                        $("#response").html(response);
+                        window.location.reload();
+                    }
+                });
+            });
+            
+           
+        
+        });
+        
+        
+        </script>
+
+
+			<footer class="page_footer gx-4  s-pt-60 s-pb-35 s-pt-lg-100 s-pb-lg-85 s-pt-xl-120 s-pb-xl-110" >
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-md-6 col-lg-4">
+							<div
+								class="widget-odd widget-last widget-first widget-1 widget_bloginfo2 widget-theme-wrapper widget_no_background">
+								<div id="mwt_bloginfo-2" class="widget widget_bloginfo">
+									<a class="blog-info-logo logo" href="index.html" target="_blank">
+										<img class="logo-full-width" src="images/Footer-Logo.png" alt="Logo">
+										<span class="d-flex flex-column">
+
+										</span>
+									</a>
+									<p>
+										<span class="fw-400">
+											<a href="#" class="fa fa-facebook color-icon bg-icon rounded"></a>
+											<a href="#" class="fa fa-instagram color-icon bg-icon rounded"></a>
+										</span>
+									</p>
+								</div>
+							</div>
+							<div class="divider-40 divider-lg-0"></div>
+						</div>
+						<!-- <div class="col-12 col-md-6 col-lg-2 ms-auto">
+							<div
+								class="widget-odd widget-last widget-first widget-1 widget-style2 widget-theme-wrapper widget_no_background">
+								<div id="nav_menu-2" class="links-grey widget widget_nav_menu">
+									<h3 class="widget-title">Pages</h3>
+									<div class="menu-footer-pages-container">
+										<ul id="menu-footer-pages" class="menu">
+											<li id="menu-item-910"
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-143 current_page_item menu-item-910">
+												<a href="index.html">Home</a>
+											</li>
+											<li id="menu-item-914"
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-914">
+												<a href="shop-left.html">Products</a></li>
+											<li id="menu-item-913"
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-913">
+												<a href="services.html">Services</a></li>
+											<li id="menu-item-911"
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-911">
+												<a href="blog-left.html">Blog</a></li>
+											<li id="menu-item-1179"
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1179">
+												<a href="contact.html">Contact</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="divider-40 divider-lg-0"></div>
+						</div> -->
+						
+						<div class="col-12 col-md-6 col-lg-5">
+							<div
+								class="widget-odd widget-last widget-first widget-1 widget-style2 widget-theme-wrapper widget_no_background">
+								<div id="mwt_bloginfo-6" class="widget widget_bloginfo">
+									<h3 class="widget-title">CONTACT INFO</h3>
+									<ul class="list-unstyled">
+										<li>
+											<div class="icon-inline ">
+												<div class="icon-styled icon-top ">
+													<i class="ico-map-marker color-main"></i>
+												</div>
+												<p>
+												Plat No 92,Sector-I,<br> M.V.P Colony,Visakhapatnam-17 </p>
+											</div>
+										</li>
+										<li>
+											<div class="icon-inline ">
+												<div class="icon-styled icon-top ">
+													<i class="ico-phone color-main"></i>
+												</div>
+												<p>
+													<a href="tel:9333883333">+91 9333883333</a>
+												</p>
+											</div>
+										</li>
+										<li>
+											<div class="icon-inline ">
+												<div class="icon-styled icon-top ">
+													<i class="ico-email1 color-main"></i>
+												</div>
+												<p>
+													<a
+														href="mailto:info@kanbunkers.com"><span
+															class="__cf_email__"
+															data-cfemail="6f00041b0e012f1c1a1f1f001d1b410c0002">info@kanbunkers.com</span></a>
+												</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-12 col-md-6 col-lg-3">
+							<div
+								class="widget-odd widget-last widget-first widget-1 widget-style2 widget-theme-wrapper widget_no_background">
+								<div id="woocommerce_product_categories-2"
+									class="widget woocommerce widget_product_categories">
+									<h3 class="widget-title">SUBSCRIBE US</h3>
+									<ul class="product-categories">
+										<li class="cat-item cat-item-15 list-unstyled">
+											<input type="email" placeholder="email" id="semail" >
+										</li>
+										<li class="cat-item cat-item-46 list-unstyled">
+										   <button type="submit" style="border:1px solid" id="subscribe">Submit &nbsp;&nbsp;<i class="color-darkgrey fa fa-long-arrow-right"
+											aria-hidden="true"></i></button>
+										</li>
+										
+									</ul>
+								</div>
+							</div>
+							<div class="divider-40 divider-md-0"></div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<section class="page_copyright ls s-pt-17 s-pb-17" style="background-color:#000">
+				<div class="container">
+					<div class="row align-items-center">
+
+						<div class="col-md-12 text-center">
+							<p>&copy; <span class="copyright_year">2023</span> Copyright Kanbunkers  <span style="float:right"><a href="https://rinixweb.com">Designed By RinixWeb</a></span></p> 
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+		</div><!-- eof #box_wrapper -->
+	</div><!-- eof #canvas -->
+
+
+	<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="js/vendor/jquery-3.6.0.min.js"></script>
+	<script>
+	      $("#subscribe").click(function() {
+                var sname = $("#semail").val();
+               if(sname=='')
+               {
+                   alert('Please Enter Valid Email');
+                   return;
+               }
+                
+                 $.ajax({
+                    url: "sub.php",
+                    type: "POST",
+                    data: {
+                       
+                        sname:sname,
+                       
+                    },
+                    success: function(response) {
+                        // $("#response").html(response);
+                        alert("Thank You For Subscribing.........!");
+                         window.location.reload();
+                    }
+                });
+         })
+	</script>
+
+	<script src="js/vendor/bootstrap.bundle.min.js"></script>
+	<script src="js/vendor/affix.js"></script>
+	<script src="js/vendor/jquery.appear.js"></script>
+	<script src="js/vendor/jquery.cookie.js"></script>
+	<script src="js/vendor/jquery.easing.1.3.js"></script>
+	<script src="js/vendor/jquery.hoverIntent.js"></script>
+	<script src="js/vendor/superfish.js"></script>
+	<script src="js/vendor/bootstrap-progressbar.min.js"></script>
+	<script src="js/vendor/jquery.countdown.min.js"></script>
+	<script src="js/vendor/jquery.countTo.js"></script>
+	<script src="js/vendor/jquery.easypiechart.min.js"></script>
+	<script src="js/vendor/jquery.scrollbar.min.js"></script>
+	<script src="js/vendor/jquery.localScroll.min.js"></script>
+	<script src="js/vendor/jquery.scrollTo.min.js"></script>
+	<script src="js/vendor/jquery.ui.totop.js"></script>
+	<script src="js/vendor/jquery.parallax-1.1.3.js"></script>
+	<script src="js/vendor/isotope.pkgd.min.js"></script>
+	<script src="js/vendor/jquery.flexslider-min.js"></script>
+	<script src="js/vendor/owl.carousel.min.js"></script>
+	<!--<script src="js/vendor/photoswipe.js"></script>-->
+	<!--<script src="js/vendor/photoswipe-ui-default.min.js"></script>-->
+	<!--<script src="js/vendor/jflickrfeed.min.js"></script>-->
+	<!--<script src="js/vendor/spectragram.min.js"></script>-->
+	<!--<script src="twitter/jquery.tweet.js"></script>-->
+	<script src="js/main.js"></script>
+	<script src="js/switcher.js"></script>
+		<script>
+			var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?74156';
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			s.async = true;
+			s.src = url;
+			var options = {
+		"enabled":true,
+		"chatButtonSetting":{
+			"backgroundColor":"#4dc247",
+			"ctaText":"",
+			"borderRadius":"25",
+			"marginLeft":"50",
+			"marginBottom":"50",
+			"marginRight":"0",
+			"position":"left"
+		},
+		"brandSetting":{
+			"brandName":"KANBUNKERS",
+			"brandSubTitle":"Typically replies within a day",
+			"brandImg":"images/whatsapp.png",
+			"welcomeText":"Hi there!\nHow can I help you?",
+			"messageText":"Hello, I have a question about {{page_link}}",
+			"backgroundColor":"#0a5f54",
+			"ctaText":"Start Chat",
+			"borderRadius":"25",
+			"autoShow":false,
+			"phoneNumber":"9333883333"
+		}
+		};
+			s.onload = function() {
+				CreateWhatsappChatWidget(options);
+			};
+			var x = document.getElementsByTagName('script')[0];
+			x.parentNode.insertBefore(s, x);
+		</script>
+
+</body>
+
+
+<!-- Mirrored from html.modernwebtemplates.com/olyva/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Aug 2023 12:17:57 GMT -->
+
+</html>
